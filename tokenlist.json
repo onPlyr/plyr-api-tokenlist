@@ -1,0 +1,56 @@
+{
+    "name": "PLYR[API] Tokenlist",
+    "timestamp": "2024-12-01T00:00:01Z",
+    "version": {
+        "major": 0,
+        "minor": 1,
+        "patch": 0
+    },
+    "tokens": [
+        {
+            "chainId": 16180,
+            "address": "0x0000000000000000000000000000000000000000",
+            "name": "PLYR",
+            "symbol": "PLYR",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/plyr.svg",
+            "apiId": "plyr"
+        },
+        {
+            "chainId": 16180,
+            "address": "0x413F1a8F0A2Bd9b6D31B2CA91c4aa7bC08266731",
+            "name": "GAMR",
+            "symbol": "GAMR",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/gamr.svg",
+            "apiId": "gamr"
+        },
+        {
+            "chainId": 62831,
+            "address": "0x0000000000000000000000000000000000000000",
+            "name": "PLYR",
+            "symbol": "PLYR",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/plyr.svg",
+            "apiId": "plyr"
+        },
+        {
+            "chainId": 62831,
+            "address": "0xa875625fe8A955406523E52E485f351b92908ce1",
+            "name": "GAMR",
+            "symbol": "GAMR",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/gamr.svg",
+            "apiId": "gamr"
+        },
+        {
+            "chainId": 62831,
+            "address": "0xa875625fe8A955406523E52E485f351b92908ce1",
+            "name": "MOCK COQ",
+            "symbol": "MCOQ",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/coq.png",
+            "apiId": "coq"
+        }
+    ]
+}
