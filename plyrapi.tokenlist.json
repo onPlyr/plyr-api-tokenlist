@@ -14,7 +14,19 @@
             "symbol": "PLYR",
             "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/plyr.png",
-            "apiId": "plyr"
+            "apiId": "plyr",
+            "cmcURL": "",
+            "cmcId": "",
+            "cgURL": "",
+            "cgId": "",
+            "website": "https://plyr.network",
+            "category": "game",
+            "shortDescription": "PLYR is the native token for PLYR Network",
+            "nativeChainId": 16180,
+            "nativeChainName": "PLYR",
+            "nativeChainURL": "https://plyr.network",
+            "nativeContractAddress": "0x0000000000000000000000000000000000000000",
+            "isGameStake": true
         },
         {
             "chainId": 16180,
@@ -23,7 +35,19 @@
             "symbol": "GAMR",
             "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/gamr.png",
-            "apiId": "gamr"
+            "apiId": "gamr",
+            "cmcURL": "",
+            "cmcId": "",
+            "cgURL": "",
+            "cgId": "",
+            "website": "https://plyr.network",
+            "category": "game",
+            "shortDescription": "GAMR is the token for PLYR gaming platform",
+            "nativeChainId": 16180,
+            "nativeChainName": "PLYR",
+            "nativeChainURL": "https://plyr.network",
+            "nativeContractAddress": "0x413F1a8F0A2Bd9b6D31B2CA91c4aa7bC08266731",
+            "isGameStake": true
         },
         {
             "chainId": 62831,
