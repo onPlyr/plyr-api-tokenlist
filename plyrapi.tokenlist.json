@@ -32,7 +32,19 @@
             "symbol": "PLYR",
             "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/plyr.png",
-            "apiId": "plyr"
+            "apiId": "plyr",
+            "cmcURL": "",
+            "cmcId": "",
+            "cgURL": "",
+            "cgId": "",
+            "website": "https://plyr.network",
+            "category": "game",
+            "shortDescription": "PLYR is the native token for PLYR Network",
+            "nativeChainId": 62831,
+            "nativeChainName": "PLYR",
+            "nativeChainURL": "https://plyr.network",
+            "nativeContractAddress": "0x0000000000000000000000000000000000000000",
+            "isGameStake": true
         },
         {
             "chainId": 62831,
@@ -41,7 +53,19 @@
             "symbol": "GAMR",
             "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/gamr.png",
-            "apiId": "gamr"
+            "apiId": "gamr",
+            "cmcURL": "",
+            "cmcId": "",
+            "cgURL": "",
+            "cgId": "",
+            "website": "https://plyr.network",
+            "category": "game",
+            "shortDescription": "GAMR is the token for PLYR gaming platform",
+            "nativeChainId": 62831,
+            "nativeChainName": "PLYR",
+            "nativeChainURL": "https://plyr.network",
+            "nativeContractAddress": "0xa875625fe8A955406523E52E485f351b92908ce1",
+            "isGameStake": true
         },
         {
             "chainId": 62831,
@@ -50,7 +74,19 @@
             "symbol": "MCOQ",
             "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/coq.png",
-            "apiId": "coq"
+            "apiId": "coq",
+            "cmcURL": "",
+            "cmcId": "",
+            "cgURL": "",
+            "cgId": "",
+            "website": "https://plyr.network",
+            "category": "meme",
+            "shortDescription": "COQ is the meme token on Avalanche Network",
+            "nativeChainId": 43113,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainURL": "https://www.avax.network",
+            "nativeContractAddress": "0xe78ca917cd518d377fDA2f1D98A22f08F0B0CAA7",
+            "isGameStake": false
         }
     ]
 }
