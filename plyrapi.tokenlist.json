@@ -24,7 +24,7 @@
             "shortDescription": "PLYR is the native token for PLYR Network",
             "nativeChainId": 16180,
             "nativeChainName": "PLYR",
-            "nativeChainURL": "https://plyr.network",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/16180.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
             "isGameStake": true
         },
@@ -45,7 +45,7 @@
             "shortDescription": "GAMR is the token for PLYR gaming platform",
             "nativeChainId": 16180,
             "nativeChainName": "PLYR",
-            "nativeChainURL": "https://plyr.network",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/16180.png",
             "nativeContractAddress": "0x413F1a8F0A2Bd9b6D31B2CA91c4aa7bC08266731",
             "isGameStake": true
         },
@@ -66,7 +66,7 @@
             "shortDescription": "PLYR is the native token for PLYR Network",
             "nativeChainId": 62831,
             "nativeChainName": "PLYR",
-            "nativeChainURL": "https://plyr.network",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/62831.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
             "isGameStake": true
         },
@@ -87,7 +87,7 @@
             "shortDescription": "GAMR is the token for PLYR gaming platform",
             "nativeChainId": 62831,
             "nativeChainName": "PLYR",
-            "nativeChainURL": "https://plyr.network",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/62831.png",
             "nativeContractAddress": "0xa875625fe8A955406523E52E485f351b92908ce1",
             "isGameStake": true
         },
@@ -99,16 +99,16 @@
             "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/coq.png",
             "apiId": "coq",
-            "cmcURL": "",
-            "cmcId": "",
-            "cgURL": "",
-            "cgId": "",
+            "cmcURL": "https://coinmarketcap.com/currencies/coq-inu/",
+            "cmcId": "28675",
+            "cgURL": "https://www.coingecko.com/en/coins/coq-inu",
+            "cgId": "coq-inu",
             "website": "https://plyr.network",
             "category": "meme",
             "shortDescription": "COQ is the meme token on Avalanche Network",
             "nativeChainId": 43113,
             "nativeChainName": "AVALANCHE",
-            "nativeChainURL": "https://www.avax.network",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0xe78ca917cd518d377fDA2f1D98A22f08F0B0CAA7",
             "isGameStake": false
         }
