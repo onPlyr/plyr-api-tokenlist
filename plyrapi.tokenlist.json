@@ -119,7 +119,7 @@
             "symbol": "MSUPER",
             "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/super.png",
-            "apiId": "coq",
+            "apiId": "super",
             "cmcURL": "https://coinmarketcap.com/currencies/superverse/",
             "cmcId": "8290",
             "cgURL": "https://www.coingecko.com/en/coins/superverse",
