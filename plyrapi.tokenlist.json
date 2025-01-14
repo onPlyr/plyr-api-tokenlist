@@ -1,10 +1,10 @@
 {
     "name": "PLYR[API] Tokenlist",
-    "timestamp": "2024-12-04T00:05:00Z",
+    "timestamp": "2025-01-14T00:05:00Z",
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 1
+        "patch": 2
     },
     "tokens": [
         {
@@ -75,6 +75,29 @@
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/62831.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
             "isGameStake": true
+        },
+        {
+            "chainId": 16180,
+            "address": "0x1D1c9Bc4EB65fF52402275a6e64A2773eBF3ed04",
+            "name": "AVAX[PLYR]",
+            "symbol": "AVAX",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/avax.png",
+            "apiId": "avax",
+            "cmcURL": "https://coinmarketcap.com/currencies/avalanche/",
+            "cmcId": "5805",
+            "cgURL": "https://www.coingecko.com/en/coins/avalanche",
+            "cgId": "avalanche-2",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.avax.network/",
+            "category": "native token",
+            "shortDescription": "AVAX is the native token of Avalanche Network",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0x0000000000000000000000000000000000000000",
+            "isGameStake": false
         },
         {
             "chainId": 62831,
