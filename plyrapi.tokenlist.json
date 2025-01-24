@@ -1,10 +1,10 @@
 {
     "name": "PLYR[API] Tokenlist",
-    "timestamp": "2025-01-14T00:05:00Z",
+    "timestamp": "2025-01-24T00:05:00Z",
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 2
+        "patch": 3
     },
     "tokens": [
         {
@@ -258,6 +258,29 @@
             "nativeChainName": "SEPOLIA",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/11155111.png",
             "nativeContractAddress": "0x413F1a8F0A2Bd9b6D31B2CA91c4aa7bC08266731",
+            "isGameStake": false
+        },
+        {
+            "chainId": 62831,
+            "address": "0xABB084bAC6E284AF918682055C79929aA94C3C5c",
+            "name": "PITBULL",
+            "symbol": "PIT",
+            "decimals": 9,
+            "logoURI": "https://plyr.network/api_icons/pit.png",
+            "apiId": "pit",
+            "cmcURL": "https://coinmarketcap.com/currencies/pitbull/",
+            "cmcId": "9177",
+            "cgURL": "https://www.coingecko.com/en/coins/pitbull",
+            "cgId": "pitbull",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://bscpitbull.com/",
+            "category": "MEME",
+            "shortDescription": "PIT is the meme token and reflective on BNB Chain",
+            "nativeChainId": 97,
+            "nativeChainName": "BNB Chain (Testnet)",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/97.png",
+            "nativeContractAddress": "0x891DB5000A284D0644bb10BB36c0b1C8bDb2D8a7",
             "isGameStake": false
         }
     ]
