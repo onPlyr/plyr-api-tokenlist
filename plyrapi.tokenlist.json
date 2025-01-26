@@ -1,10 +1,10 @@
 {
     "name": "PLYR[API] Tokenlist",
-    "timestamp": "2025-01-24T00:05:00Z",
+    "timestamp": "2025-01-26T00:05:00Z",
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 3
+        "patch": 4
     },
     "tokens": [
         {
@@ -100,6 +100,29 @@
             "isGameStake": false
         },
         {
+            "chainId": 16180,
+            "address": "0x63F551298862f306B689724519D95eDA3dCDE5b8",
+            "name": "USDC[PLYR]",
+            "symbol": "USDC",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/usdc.png",
+            "apiId": "usdc",
+            "cmcURL": "https://coinmarketcap.com/currencies/usd-coin/",
+            "cmcId": "3408",
+            "cgURL": "https://www.coingecko.com/en/coins/usdc",
+            "cgId": "usd-coin",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.usdc.com/",
+            "category": "stable coin",
+            "shortDescription": "USDC is the Stable Coin by Circle Internet Group",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+            "isGameStake": false
+        },
+        {
             "chainId": 62831,
             "address": "0xa875625fe8A955406523E52E485f351b92908ce1",
             "name": "GAMR",
@@ -143,6 +166,29 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0xe78ca917cd518d377fDA2f1D98A22f08F0B0CAA7",
+            "isGameStake": false
+        },
+        {
+            "chainId": 62831,
+            "address": "0x6EF8956463B2FCc441a8a4f4d5b0a1292A559605",
+            "name": "KET[PLYR]",
+            "symbol": "KET",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/ket.png",
+            "apiId": "ket",
+            "cmcURL": "",
+            "cmcId": "",
+            "cgURL": "https://www.coingecko.com/en/coins/ket",
+            "cgId": "ket",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.ketboard.xyz/",
+            "category": "meme",
+            "shortDescription": "KET is the meme token on Avalanche Network",
+            "nativeChainId": 43113,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
+            "nativeContractAddress": "0xa942f5753ae5eE9Bfe97DedFe0853680E2A7090a",
             "isGameStake": false
         },
         {
