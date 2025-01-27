@@ -104,7 +104,7 @@
             "address": "0x63F551298862f306B689724519D95eDA3dCDE5b8",
             "name": "USDC[PLYR]",
             "symbol": "USDC",
-            "decimals": 18,
+            "decimals": 6,
             "logoURI": "https://plyr.network/api_icons/usdc.png",
             "apiId": "usdc",
             "cmcURL": "https://coinmarketcap.com/currencies/usd-coin/",
