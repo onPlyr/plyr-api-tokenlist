@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 6
+        "patch": 7
     },
     "tokens": [
         {
@@ -373,6 +373,29 @@
             "nativeChainName": "BNB Chain (Testnet)",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/97.png",
             "nativeContractAddress": "0xDCD45Eee67E9Ec2C095463210Bb4858Be88b6289",
+            "isGameStake": false
+        },
+        {
+            "chainId": 62831,
+            "address": "0x5E6e93C97028684fF5F630dd476F5Cd6b817CA2E",
+            "name": "VINU",
+            "symbol": "VINU",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/vinu.png",
+            "apiId": "vinu",
+            "cmcURL": "https://coinmarketcap.com/currencies/vita-inu/",
+            "cmcId": "15270",
+            "cgURL": "https://www.coingecko.com/en/coins/vita-inu",
+            "cgId": "vita-inu",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.vitainu.org/",
+            "category": "MEME",
+            "shortDescription": "VINU is the Meme token on BNB Chain",
+            "nativeChainId": 97,
+            "nativeChainName": "BNB Chain (Testnet)",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/97.png",
+            "nativeContractAddress": "0xD647d2a81202D83BDBd4ec98146BD4A4F8B742bc",
             "isGameStake": false
         },
         {
