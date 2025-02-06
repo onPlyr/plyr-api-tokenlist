@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 7
+        "patch": 8
     },
     "tokens": [
         {
@@ -166,6 +166,29 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0xe78ca917cd518d377fDA2f1D98A22f08F0B0CAA7",
+            "isGameStake": false
+        },
+        {
+            "chainId": 62831,
+            "address": "0xA69E8C5aFC0A4633d3d84d6C360998354c4C692C",
+            "name": "USDC",
+            "symbol": "USDC",
+            "decimals": 6,
+            "logoURI": "https://plyr.network/api_icons/usdc.png",
+            "apiId": "usdc",
+            "cmcURL": "https://coinmarketcap.com/currencies/usd-coin/",
+            "cmcId": "3408",
+            "cgURL": "https://www.coingecko.com/en/coins/usdc",
+            "cgId": "usd-coin",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.usdc.com/",
+            "category": "stable coin",
+            "shortDescription": "USDC is the Stable Coin by Circle Internet Group",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
+            "nativeContractAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
             "isGameStake": false
         },
         {
