@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 8
+        "patch": 9
     },
     "tokens": [
         {
@@ -396,6 +396,29 @@
             "nativeChainName": "BNB Chain (Testnet)",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/97.png",
             "nativeContractAddress": "0xDCD45Eee67E9Ec2C095463210Bb4858Be88b6289",
+            "isGameStake": false
+        },
+        {
+            "chainId": 62831,
+            "address": "0xf81998b41c74E06Bc97444190371e764D15473DE",
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/bnb.png",
+            "apiId": "bnb",
+            "cmcURL": "https://coinmarketcap.com/currencies/bnb/",
+            "cmcId": "1839",
+            "cgURL": "https://www.coingecko.com/en/coins/bnb",
+            "cgId": "bnb",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.bnbchain.org/",
+            "category": "native token",
+            "shortDescription": "BNB is the native token of BNB Chain",
+            "nativeChainId": 97,
+            "nativeChainName": "BNB Chain (Testnet)",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/97.png",
+            "nativeContractAddress": "0x0000000000000000000000000000000000000000",
             "isGameStake": false
         },
         {
