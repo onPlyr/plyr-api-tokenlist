@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 10
+        "patch": 11
     },
     "tokens": [
         {
@@ -143,6 +143,29 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
             "nativeContractAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+            "isGameStake": false
+        },
+        {
+            "chainId": 16180,
+            "address": "0x17563c474A5c3FfD51808FDcdDe3457b6dc38932",
+            "name": "COQ[PLYR]",
+            "symbol": "COQ",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/coq.png",
+            "apiId": "coq",
+            "cmcURL": "https://coinmarketcap.com/currencies/coq-inu/",
+            "cmcId": "28675",
+            "cgURL": "https://www.coingecko.com/en/coins/coq-inu",
+            "cgId": "coq-inu",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.coqinu.com/",
+            "category": "meme",
+            "shortDescription": "COQ is the meme token on Avalanche Network",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0x420fca0121dc28039145009570975747295f2329",
             "isGameStake": false
         },
         {
