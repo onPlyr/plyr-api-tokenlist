@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 9
+        "patch": 10
     },
     "tokens": [
         {
@@ -96,6 +96,29 @@
             "nativeChainId": 43114,
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0x0000000000000000000000000000000000000000",
+            "isGameStake": false
+        },
+        {
+            "chainId": 16180,
+            "address": "0xc9700BA01E13eD71E3909a72fe1C0C00B7918ad5",
+            "name": "BNB[PLYR]",
+            "symbol": "BNB",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/bnb.png",
+            "apiId": "bnb",
+            "cmcURL": "https://coinmarketcap.com/currencies/bnb/",
+            "cmcId": "1839",
+            "cgURL": "https://www.coingecko.com/en/coins/bnb",
+            "cgId": "bnb",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.bnbchain.org/",
+            "category": "native token",
+            "shortDescription": "BNB is the native token of BNB Chain",
+            "nativeChainId": 57,
+            "nativeChainName": "BNB Chain",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/57.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
             "isGameStake": false
         },
