@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 11
+        "patch": 12
     },
     "tokens": [
         {
@@ -120,7 +120,8 @@
             "nativeChainName": "BNB Chain",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/57.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": true
         },
         {
             "chainId": 16180,
@@ -166,7 +167,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
             "nativeContractAddress": "0x420fca0121dc28039145009570975747295f2329",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": true
         },
         {
             "chainId": 62831,
