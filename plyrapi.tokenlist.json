@@ -28,7 +28,8 @@
             "nativeChainName": "PLYR",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/16180.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
-            "isGameStake": true
+            "isGameStake": true,
+            "disabledOnUI": false
         },
         {
             "chainId": 16180,
@@ -51,7 +52,8 @@
             "nativeChainName": "PLYR",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/16180.png",
             "nativeContractAddress": "0x413F1a8F0A2Bd9b6D31B2CA91c4aa7bC08266731",
-            "isGameStake": true
+            "isGameStake": true,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -74,7 +76,8 @@
             "nativeChainName": "PLYR",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/62831.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
-            "isGameStake": true
+            "isGameStake": true,
+            "disabledOnUI": false
         },
         {
             "chainId": 16180,
@@ -97,7 +100,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 16180,
@@ -144,7 +148,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
             "nativeContractAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 16180,
@@ -191,7 +196,8 @@
             "nativeChainName": "PLYR",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/62831.png",
             "nativeContractAddress": "0xa875625fe8A955406523E52E485f351b92908ce1",
-            "isGameStake": true
+            "isGameStake": true,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -214,7 +220,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0xe78ca917cd518d377fDA2f1D98A22f08F0B0CAA7",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -237,7 +244,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -260,7 +268,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0xcC0a777a0418607d9b8aFC27A59E4eaEDff304fE",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -283,7 +292,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0xa942f5753ae5eE9Bfe97DedFe0853680E2A7090a",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -306,7 +316,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0x2468a9B0fD297CA7411aF891b5C86A212fD2a519",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -329,7 +340,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0xadEfc0e412CCE6f26Ed5c1bc0a6Ef662167ee10A",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -352,7 +364,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0x2d0aFed89a6D6A100273Db377dBA7a32C739E314",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -375,7 +388,8 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -398,7 +412,8 @@
             "nativeChainName": "SEPOLIA",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/11155111.png",
             "nativeContractAddress": "0x413F1a8F0A2Bd9b6D31B2CA91c4aa7bC08266731",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -421,7 +436,8 @@
             "nativeChainName": "BNB Chain (Testnet)",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/97.png",
             "nativeContractAddress": "0x891DB5000A284D0644bb10BB36c0b1C8bDb2D8a7",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -444,7 +460,8 @@
             "nativeChainName": "BNB Chain (Testnet)",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/97.png",
             "nativeContractAddress": "0xDCD45Eee67E9Ec2C095463210Bb4858Be88b6289",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -467,7 +484,8 @@
             "nativeChainName": "BNB Chain (Testnet)",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/97.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -490,7 +508,8 @@
             "nativeChainName": "BNB Chain (Testnet)",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/97.png",
             "nativeContractAddress": "0xD647d2a81202D83BDBd4ec98146BD4A4F8B742bc",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         },
         {
             "chainId": 62831,
@@ -513,7 +532,8 @@
             "nativeChainName": "Base (Testnet)",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/84532.png",
             "nativeContractAddress": "0x5d506e4fc75204a1a3260e720a3c3f375a829312",
-            "isGameStake": false
+            "isGameStake": false,
+            "disabledOnUI": false
         }
     ]
 }
