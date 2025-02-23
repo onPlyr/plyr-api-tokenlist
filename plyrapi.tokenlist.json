@@ -1,10 +1,10 @@
 {
     "name": "PLYR[API] Tokenlist",
-    "timestamp": "2025-02-05T00:05:00Z",
+    "timestamp": "2025-02-23T00:05:00Z",
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 13
+        "patch": 14
     },
     "tokens": [
         {
@@ -125,7 +125,7 @@
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/57.png",
             "nativeContractAddress": "0x0000000000000000000000000000000000000000",
             "isGameStake": false,
-            "disabledOnUI": true
+            "disabledOnUI": false
         },
         {
             "chainId": 16180,
