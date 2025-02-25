@@ -240,12 +240,12 @@
             "website": "https://www.ketboard.xyz/",
             "category": "meme",
             "shortDescription": "KET is the meme token on Avalanche Network",
-            "nativeChainId": 43113,
+            "nativeChainId": 43114,
             "nativeChainName": "AVALANCHE",
-            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
             "nativeContractAddress": "0xffff003a6bad9b743d658048742935fffe2b6ed7",
             "isGameStake": false,
-            "disabledOnUI": true
+            "disabledOnUI": false
         },
         {
             "chainId": 16180,
@@ -264,9 +264,9 @@
             "website": "https://lfj.gg/",
             "category": "governance",
             "shortDescription": "JOE is the governance token on Avalanche Network",
-            "nativeChainId": 43113,
+            "nativeChainId": 43114,
             "nativeChainName": "AVALANCHE",
-            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43113.png",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
             "nativeContractAddress": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
             "isGameStake": false,
             "disabledOnUI": true
