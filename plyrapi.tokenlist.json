@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 14
+        "patch": 15
     },
     "tokens": [
         {
@@ -177,6 +177,30 @@
         },
         {
             "chainId": 16180,
+            "address": "0x5E6e93C97028684fF5F630dd476F5Cd6b817CA2E",
+            "name": "RECORD[PLYR]",
+            "symbol": "RECORD",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/record.png",
+            "apiId": "record",
+            "cmcURL": "https://coinmarketcap.com/currencies/music-protocol/",
+            "cmcId": "32229",
+            "cgURL": "https://www.coingecko.com/en/coins/music-protocol",
+            "cgId": "music-protocol",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://musicprotocol.finance/",
+            "category": "Utility",
+            "shortDescription": "RECORD is the utility token on Base Chain",
+            "nativeChainId": 8453,
+            "nativeChainName": "Base",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/8453.png",
+            "nativeContractAddress": "0xE642657E4F43e6DcF0bd73Ef24008394574Dee28",
+            "isGameStake": false,
+            "disabledOnUI": true
+        },
+        {
+            "chainId": 16180,
             "address": "0x63F551298862f306B689724519D95eDA3dCDE5b8",
             "name": "USDC[PLYR]",
             "symbol": "USDC",
@@ -271,7 +295,57 @@
             "isGameStake": false,
             "disabledOnUI": false
         },
+        {
+            "chainId": 16180,
+            "address": "0x612A487212710fCDc022935Ae5757FaCABD2881a",
+            "name": "APEX[PLYR]",
+            "symbol": "APEX",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/apex.png",
+            "apiId": "apex",
+            "cmcURL": "",
+            "cmcId": "",
+            "cgURL": "",
+            "cgId": "",
+            "cmcDexAddress": "0x8a953c4cf369b1d65943b2f1e415ea14ca678b37",
+            "cmcDexNetwork": "avalanche",
+            "website": "https://www.apexdefi.xyz/",
+            "category": "governance",
+            "shortDescription": "APEX is the governance token on Avalanche Network",
+            "nativeChainId": 43113,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0x98b172a09102869add73116fc92a0a60bff4778f",
+            "isGameStake": false,
+            "disabledOnUI": true
+        },
+        {
+            "chainId": 16180,
+            "address": "0x3427379648109D20C27a9d22B9236f29325cCfbB",
+            "name": "ALU[PLYR]",
+            "symbol": "ALU",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/alu.png",
+            "apiId": "alu",
+            "cmcURL": "https://coinmarketcap.com/currencies/altura/",
+            "cmcId": "9637",
+            "cgURL": "https://www.coingecko.com/en/coins/altura",
+            "cgId": "altura",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.altura.com/",
+            "category": "Utility",
+            "shortDescription": "ALU is the utility token on BSC Network",
+            "nativeChainId": 57,
+            "nativeChainName": "BNB Chain",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/57.png",
+            "nativeContractAddress": "0x8263CD1601FE73C066bf49cc09841f35348e3be0",
+            "isGameStake": false,
+            "disabledOnUI": true
+        },
         
+
+
         {
             "chainId": 62831,
             "address": "0xa875625fe8A955406523E52E485f351b92908ce1",
