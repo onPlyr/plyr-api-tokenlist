@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 17
+        "patch": 18
     },
     "tokens": [
         {
@@ -343,7 +343,30 @@
             "isGameStake": false,
             "disabledOnUI": true
         },
-        
+        {
+            "chainId": 16180,
+            "address": "0x3433DC3a55D9C77315CD939AD775000D31F426D5",
+            "name": "WINK[PLYR]",
+            "symbol": "WINK",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/wink.png",
+            "apiId": "wink",
+            "cmcURL": "https://coinmarketcap.com/currencies/wink-wall/",
+            "cmcId": "35765",
+            "cgURL": "https://www.coingecko.com/en/coins/wink-2",
+            "cgId": "wink-3",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.winkwall.xyz/",
+            "category": "meme",
+            "shortDescription": "WINK is the Meme token on Avalanche Network",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0x7698A5311DA174A95253Ce86C21ca7272b9B05f8",
+            "isGameStake": false,
+            "disabledOnUI": true
+        },
 
 
         {
