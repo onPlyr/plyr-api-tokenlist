@@ -367,6 +367,30 @@
             "isGameStake": false,
             "disabledOnUI": true
         },
+        {
+            "chainId": 16180,
+            "address": "0x528B5C9f4a401B230F6e15014522e1b60a15f342",
+            "name": "BLUB[PLYR]",
+            "symbol": "BLUB",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/blub.png",
+            "apiId": "blub",
+            "cmcURL": "",
+            "cmcId": "",
+            "cgURL": "",
+            "cgId": "",
+            "cmcDexAddress": "0x39888258d60fed9228f89e13eb57a92f1fa832eb",
+            "cmcDexNetwork": "avalanche",
+            "website": "https://www.blubhub.xyz/",
+            "category": "meme",
+            "shortDescription": "BLUB is the Meme token on Avalanche Network",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0x0f669808d88b2b0b3d23214dcd2a1cc6a8b1b5cd",
+            "isGameStake": false,
+            "disabledOnUI": true
+        },
 
 
         {
