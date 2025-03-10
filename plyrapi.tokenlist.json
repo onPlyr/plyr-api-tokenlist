@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 20
+        "patch": 21
     },
     "tokens": [
         {
@@ -388,6 +388,54 @@
             "nativeChainName": "AVALANCHE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
             "nativeContractAddress": "0x0f669808d88b2b0b3d23214dcd2a1cc6a8b1b5cd",
+            "isGameStake": false,
+            "disabledOnUI": true
+        },
+        {
+            "chainId": 16180,
+            "address": "0xcEf949Aaf9a0d91892eb452FB03914F40eAc16dd",
+            "name": "KIMBO[PLYR]",
+            "symbol": "KIMBO",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/kimbo.png",
+            "apiId": "kimbo",
+            "cmcURL": "https://coinmarketcap.com/currencies/kimbo/",
+            "cmcId": "28836",
+            "cgURL": "https://www.coingecko.com/en/coins/kimbo",
+            "cgId": "kimbo",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://www.kimboavax.com/",
+            "category": "meme",
+            "shortDescription": "KIMBO is the meme token on Avalanche Network",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0x184ff13B3EBCB25Be44e860163A5D8391Dd568c1",
+            "isGameStake": false,
+            "disabledOnUI": true
+        },
+        {
+            "chainId": 16180,
+            "address": "0x0eF4cF2298BA3dd3840B96561749826B05D386Aa",
+            "name": "BIG",
+            "symbol": "BIG",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/big.png",
+            "apiId": "big",
+            "cmcURL": "https://coinmarketcap.com/currencies/big/",
+            "cmcId": "34347",
+            "cgURL": "https://www.coingecko.com/en/coins/big",
+            "cgId": "big",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://bigmeme.xyz/",
+            "category": "meme",
+            "shortDescription": "BIG is the meme token on Avalanche Network",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0x2d0aFed89a6D6A100273Db377dBA7a32C739E314",
             "isGameStake": false,
             "disabledOnUI": true
         },
