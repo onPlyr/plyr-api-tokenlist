@@ -492,9 +492,9 @@
         {
             "chainId": 62831,
             "address": "0xA69E8C5aFC0A4633d3d84d6C360998354c4C692C",
-            "name": "USDC",
+            "name": "tUSDC",
             "symbol": "USDC",
-            "decimals": 6,
+            "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/usdc.png",
             "apiId": "usdc",
             "cmcURL": "https://coinmarketcap.com/currencies/usd-coin/",
