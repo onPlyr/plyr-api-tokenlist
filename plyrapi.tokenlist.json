@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 21
+        "patch": 22
     },
     "tokens": [
         {
@@ -413,7 +413,7 @@
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
             "nativeContractAddress": "0x184ff13B3EBCB25Be44e860163A5D8391Dd568c1",
             "isGameStake": false,
-            "disabledOnUI": true
+            "disabledOnUI": false
         },
         {
             "chainId": 16180,
