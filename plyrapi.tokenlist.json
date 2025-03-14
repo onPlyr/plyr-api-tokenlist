@@ -418,7 +418,7 @@
         {
             "chainId": 16180,
             "address": "0x0eF4cF2298BA3dd3840B96561749826B05D386Aa",
-            "name": "BIG",
+            "name": "BIG[PLYR]",
             "symbol": "BIG",
             "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/big.png",
