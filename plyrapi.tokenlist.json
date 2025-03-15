@@ -1,10 +1,10 @@
 {
     "name": "PLYR[API] Tokenlist",
-    "timestamp": "2025-03-13T00:05:00Z",
+    "timestamp": "2025-03-15T00:05:00Z",
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 23
+        "patch": 24
     },
     "tokens": [
         {
@@ -377,8 +377,8 @@
             "apiId": "blub",
             "cmcURL": "",
             "cmcId": "",
-            "cgURL": "",
-            "cgId": "",
+            "cgURL": "https://www.coingecko.com/en/coins/blub-2",
+            "cgId": "blub-2",
             "cmcDexAddress": "0x39888258d60fed9228f89e13eb57a92f1fa832eb",
             "cmcDexNetwork": "avalanche",
             "website": "https://www.blubhub.xyz/",
