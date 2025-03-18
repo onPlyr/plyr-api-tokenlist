@@ -446,7 +446,7 @@
             "symbol": "GPTW",
             "decimals": 18,
             "logoURI": "https://plyr.network/api_icons/gptw.png",
-            "apiId": "GPTW",
+            "apiId": "gptw",
             "cmcURL": "",
             "cmcId": "",
             "cgURL": "https://www.coingecko.com/en/coins/gpt-wars",
