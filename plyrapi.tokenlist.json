@@ -581,7 +581,7 @@
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/56.png",
             "nativeContractAddress": "0xA57ac35CE91Ee92CaEfAA8dc04140C8e232c2E50",
             "isGameStake": false,
-            "disabledOnUI": true
+            "disabledOnUI": false
         },
         {
             "chainId": 16180,
