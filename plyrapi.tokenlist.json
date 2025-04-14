@@ -751,31 +751,6 @@
             "isGameStake": false,
             "disabledOnUI": false
         },
-        {
-            "chainId": 16180,
-            "address": "0x2077d0d723f007605Fe818Aa809e053de4F547Bb",
-            "name": "OM[PLYR]",
-            "symbol": "OM",
-            "decimals": 18,
-            "logoURI": "https://plyr.network/api_icons/om.png",
-            "apiId": "om",
-            "cmcURL": "https://coinmarketcap.com/th/currencies/mantra/",
-            "cmcId": "6536",
-            "cgURL": "https://www.coingecko.com/en/coins/mantra",
-            "cgId": "mantra-dao",
-            "cmcDexAddress": "",
-            "cmcDexNetwork": "",
-            "website": "https://www.mantrachain.io/",
-            "category": "RWA",
-            "shortDescription": "OM is a token of Mantra Project",
-            "nativeChainId": 8453,
-            "nativeChainName": "BASE",
-            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/8453.png",
-            "nativeContractAddress": "0x3992b27da26848c2b19cea6fd25ad5568b68ab98",
-            "isGameStake": false,
-            "disabledOnUI": true
-        },
-
 
 
         {
