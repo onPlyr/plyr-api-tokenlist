@@ -4,7 +4,7 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "patch": 33
+        "patch": 34
     },
     "tokens": [
         {
@@ -844,6 +844,30 @@
             "nativeChainName": "BASE",
             "nativeChainLogoURI": "https://plyr.network/api_icons/chains/8453.png",
             "nativeContractAddress": "0x9c632e6aaa3ea73f91554f8a3cb2ed2f29605e0c",
+            "isGameStake": false,
+            "disabledOnUI": true
+        },
+        {
+            "chainId": 16180,
+            "address": "0x02B7A3a5f4108EBd43681F1ee50cA9a13226db78",
+            "name": "PHAR[PLYR]",
+            "symbol": "PHAR",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/phar.png",
+            "apiId": "phar",
+            "cmcURL": "https://coinmarketcap.com/currencies/pharaoh/",
+            "cmcId": "35643",
+            "cgURL": "https://www.coingecko.com/en/coins/pharaoh",
+            "cgId": "pharaoh",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://pharaoh.exchange/",
+            "category": "Governance",
+            "shortDescription": "PHAR is the Governance token of Pharao Exchange",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0xaaab9d12a30504559b0c5a9a5977fee4a6081c6b",
             "isGameStake": false,
             "disabledOnUI": true
         },
