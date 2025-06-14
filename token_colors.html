@@ -1,0 +1,1597 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Token Colors Preview</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background: #f0f0f0;
+            }
+            .token-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 20px;
+                padding: 20px;
+            }
+            .token-card {
+                background: white;
+                border-radius: 8px;
+                padding: 15px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .token-header {
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+            }
+            .token-logo {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+            .token-name {
+                font-weight: bold;
+                font-size: 1.1em;
+            }
+            .color-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+            .color-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .color-label {
+                font-size: 0.8em;
+                margin-bottom: 5px;
+                color: #666;
+            }
+            .color-box {
+                width: 100%;
+                height: 30px;
+                border-radius: 4px;
+            }
+            .gradient-box {
+                width: 100%;
+                height: 30px;
+                border-radius: 4px;
+                background: linear-gradient(45deg, var(--color1), var(--color2));
+            }
+        </style>
+    </head>
+    <body>
+        <div class="token-grid">
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/plyr.png" class="token-logo" alt="PLYR">
+                        <div class="token-name">PLYR</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #ff6600"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #ff6600"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #fff0e6"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #ff6600; --color2: #fff0e6"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/gamr.png" class="token-logo" alt="GAMR">
+                        <div class="token-name">GAMR</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #00cccc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #00cccc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #e6fafa"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #00cccc; --color2: #e6fafa"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/plyr.png" class="token-logo" alt="PLYR">
+                        <div class="token-name">PLYR</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #ff6600"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #ff6600"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #fff0e6"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #ff6600; --color2: #fff0e6"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/avax.png" class="token-logo" alt="AVAX">
+                        <div class="token-name">AVAX</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #eb4343"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #eb4343"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #fbd6d8"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #eb4343; --color2: #fbd6d8"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/bnb.png" class="token-logo" alt="BNB">
+                        <div class="token-name">BNB</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #f3bb0b"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #f3bb0c"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #fcedc1"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #f3bb0c; --color2: #fcedc1"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/fil.png" class="token-logo" alt="FIL">
+                        <div class="token-name">FIL</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #0493fc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #0493fc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #c3e5fc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #0493fc; --color2: #c3e5fc"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/floki.png" class="token-logo" alt="FLOKI">
+                        <div class="token-name">FLOKI</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #f39c24"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #c79249"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #1a1719"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #c79249; --color2: #1a1719"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/record.png" class="token-logo" alt="RECORD">
+                        <div class="token-name">RECORD</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #195c73"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #195d73"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #38c4a9"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #195d73; --color2: #38c4a9"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/usdc.png" class="token-logo" alt="USDC">
+                        <div class="token-name">USDC</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #2373cb"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #2473cb"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #d0e1f3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #2473cb; --color2: #d0e1f3"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/coq.png" class="token-logo" alt="COQ">
+                        <div class="token-name">COQ</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #fbdc76"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #f2a068"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #cb2647"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #f2a068; --color2: #cb2647"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/ket.png" class="token-logo" alt="KET">
+                        <div class="token-name">KET</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #e1a536"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #d8a84f"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #443c2f"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #d8a84f; --color2: #443c2f"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/joe.png" class="token-logo" alt="JOE">
+                        <div class="token-name">JOE</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #8676f1"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #b199d3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #131213"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #b199d3; --color2: #131213"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/apex.png" class="token-logo" alt="APEX">
+                        <div class="token-name">APEX</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #040405"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #040508"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #2673eb"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #040508; --color2: #2673eb"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/alu.png" class="token-logo" alt="ALU">
+                        <div class="token-name">ALU</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #f868da"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #05d5fc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #ef79da"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #05d5fc; --color2: #ef79da"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/wink.png" class="token-logo" alt="WINK">
+                        <div class="token-name">WINK</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #312579"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #dd8f42"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #312579"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #dd8f42; --color2: #312579"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/blub.png" class="token-logo" alt="BLUB">
+                        <div class="token-name">BLUB</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #fb9ec0"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #f189af"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #161213"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #f189af; --color2: #161213"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/kimbo.png" class="token-logo" alt="KIMBO">
+                        <div class="token-name">KIMBO</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #ca3831"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #cc4e44"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #39241f"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #cc4e44; --color2: #39241f"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/big.png" class="token-logo" alt="BIG">
+                        <div class="token-name">BIG</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #7ccceb"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #4b80a8"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #bef7f9"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #4b80a8; --color2: #bef7f9"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/gptw.png" class="token-logo" alt="GPTW">
+                        <div class="token-name">GPTW</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #0f0f10"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #101010"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #f62c07"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #101010; --color2: #f62c07"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/arena.png" class="token-logo" alt="ARENA">
+                        <div class="token-name">ARENA</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #ea540c"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #e95610"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #f5dece"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #e95610; --color2: #f5dece"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/gmrx.png" class="token-logo" alt="GMRX">
+                        <div class="token-name">GMRX</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #d0ad6d"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #0f0b28"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #cfac6d"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #0f0b28; --color2: #cfac6d"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/shib.png" class="token-logo" alt="SHIB">
+                        <div class="token-name">SHIB</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #fba00b"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #f8710c"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #090807"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #f8710c; --color2: #090807"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/super.png" class="token-logo" alt="SUPER">
+                        <div class="token-name">SUPER</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #73f394"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #241d23"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #73f294"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #241d23; --color2: #73f294"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/pit.png" class="token-logo" alt="PIT">
+                        <div class="token-name">PIT</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #0c0c0c"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #1a1a1a"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #c3c3c3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #1a1a1a; --color2: #c3c3c3"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/doge.png" class="token-logo" alt="DOGE">
+                        <div class="token-name">DOGE</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #b39637"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #cfba77"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #36311c"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #cfba77; --color2: #36311c"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/pepe.png" class="token-logo" alt="PEPE">
+                        <div class="token-name">PEPE</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #4c9243"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #49813c"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #c7a097"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #49813c; --color2: #c7a097"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/babydoge.png" class="token-logo" alt="BABYDOGE">
+                        <div class="token-name">BABYDOGE</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #fae974"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #f9da67"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #4f2c19"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #f9da67; --color2: #4f2c19"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/bls.png" class="token-logo" alt="BLS">
+                        <div class="token-name">BLS</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #d63122"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #050404"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #d63122"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #050404; --color2: #d63122"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/btc.png" class="token-logo" alt="BTC.B">
+                        <div class="token-name">BTC.B</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #f4931b"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #f4941c"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #fcead4"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #f4941c; --color2: #fcead4"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/ami.png" class="token-logo" alt="AMI">
+                        <div class="token-name">AMI</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #de3037"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #d83037"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #e9d8bc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #d83037; --color2: #e9d8bc"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/aero.png" class="token-logo" alt="AERO">
+                        <div class="token-name">AERO</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #ebebe3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #eae3dd"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #0b2197"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #eae3dd; --color2: #0b2197"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/uni.png" class="token-logo" alt="UNI">
+                        <div class="token-name">UNI</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #fae9f4"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #fae8f3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #e5167a"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #fae8f3; --color2: #e5167a"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/dexe.png" class="token-logo" alt="DEXE">
+                        <div class="token-name">DEXE</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #040404"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #050505"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #c8c8c8"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #050505; --color2: #c8c8c8"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/virtual.png" class="token-logo" alt="VIRTUAL">
+                        <div class="token-name">VIRTUAL</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #339596"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #dbf7e3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #339596"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #dbf7e3; --color2: #339596"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/xcn.png" class="token-logo" alt="XCN">
+                        <div class="token-name">XCN</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #231c23"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #251e24"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #dfdedf"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #251e24; --color2: #dfdedf"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/phar.png" class="token-logo" alt="PHAR">
+                        <div class="token-name">PHAR</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #c62a2a"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #111018"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #c62a2a"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #111018; --color2: #c62a2a"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/beam.png" class="token-logo" alt="BEAM">
+                        <div class="token-name">BEAM</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #9edde5"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #e1a253"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #9edde5"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #e1a253; --color2: #9edde5"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/ausd.png" class="token-logo" alt="AUSD">
+                        <div class="token-name">AUSD</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #9b9351"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #9b9352"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #e5e4da"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #9b9352; --color2: #e5e4da"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/boi.png" class="token-logo" alt="BOI">
+                        <div class="token-name">BOI</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #a26324"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #c2832e"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #3f2007"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #c2832e; --color2: #3f2007"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/bnana.png" class="token-logo" alt="BNANA">
+                        <div class="token-name">BNANA</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #363332"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #667487"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #d1b989"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #667487; --color2: #d1b989"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/steak.png" class="token-logo" alt="STEAK">
+                        <div class="token-name">STEAK</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #ec5ba3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #ec5ca4"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #fbe5ef"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #ec5ca4; --color2: #fbe5ef"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/waifu.png" class="token-logo" alt="WAIFU">
+                        <div class="token-name">WAIFU</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #c87e8d"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #361f37"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #c87e8d"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #361f37; --color2: #c87e8d"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/qi.png" class="token-logo" alt="QI">
+                        <div class="token-name">QI</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #040404"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #041115"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #bfbfbf"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #041115; --color2: #bfbfbf"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/juicy.png" class="token-logo" alt="JUICY">
+                        <div class="token-name">JUICY</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #040404"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #040504"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #83cb13"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #040504; --color2: #83cb13"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/id.png" class="token-logo" alt="ID">
+                        <div class="token-name">ID</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #cd6543"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #ce6844"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #5a2e12"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #ce6844; --color2: #5a2e12"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/gun.png" class="token-logo" alt="GUN">
+                        <div class="token-name">GUN</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #040505"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #050505"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #a4e5f6"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #050505; --color2: #a4e5f6"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/gamr.png" class="token-logo" alt="GAMR">
+                        <div class="token-name">GAMR</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #00cccc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #00cccc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #e6fafa"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #00cccc; --color2: #e6fafa"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/coq.png" class="token-logo" alt="MCOQ">
+                        <div class="token-name">MCOQ</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #fbdc76"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #f2a068"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #cb2647"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #f2a068; --color2: #cb2647"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/usdc.png" class="token-logo" alt="USDC">
+                        <div class="token-name">USDC</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #2373cb"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #2473cb"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #d0e1f3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #2473cb; --color2: #d0e1f3"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/hatchy.png" class="token-logo" alt="HATCHY">
+                        <div class="token-name">HATCHY</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #e44373"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #e44474"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #f9d4e0"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #e44474; --color2: #f9d4e0"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/ket.png" class="token-logo" alt="KET">
+                        <div class="token-name">KET</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #e1a536"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #d8a84f"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #443c2f"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #d8a84f; --color2: #443c2f"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/apex.png" class="token-logo" alt="APEX">
+                        <div class="token-name">APEX</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #040405"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #040508"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #2673eb"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #040508; --color2: #2673eb"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/kimbo.png" class="token-logo" alt="KIMBO">
+                        <div class="token-name">KIMBO</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #ca3831"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #cc4e44"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #39241f"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #cc4e44; --color2: #39241f"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/big.png" class="token-logo" alt="BIG">
+                        <div class="token-name">BIG</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #7ccceb"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #4b80a8"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #bef7f9"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #4b80a8; --color2: #bef7f9"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/avax.png" class="token-logo" alt="AVAX">
+                        <div class="token-name">AVAX</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #eb4343"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #eb4343"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #fbd6d8"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #eb4343; --color2: #fbd6d8"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/super.png" class="token-logo" alt="MSUPER">
+                        <div class="token-name">MSUPER</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #73f394"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #241d23"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #73f294"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #241d23; --color2: #73f294"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/pit.png" class="token-logo" alt="PIT">
+                        <div class="token-name">PIT</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #0c0c0c"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #1a1a1a"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #c3c3c3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #1a1a1a; --color2: #c3c3c3"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/fil.png" class="token-logo" alt="FIL">
+                        <div class="token-name">FIL</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #0493fc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #0493fc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #c3e5fc"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #0493fc; --color2: #c3e5fc"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/bnb.png" class="token-logo" alt="BNB">
+                        <div class="token-name">BNB</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #f3bb0b"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #f3bb0c"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #fcedc1"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #f3bb0c; --color2: #fcedc1"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/vinu.png" class="token-logo" alt="VINU">
+                        <div class="token-name">VINU</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #077af7"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #0858c3"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #c5a0c9"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #0858c3; --color2: #c5a0c9"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="token-card">
+                    <div class="token-header">
+                        <img src="https://plyr.network/api_icons/record.png" class="token-logo" alt="RECORD">
+                        <div class="token-name">RECORD</div>
+                    </div>
+                    <div class="color-grid">
+                        <div class="color-item">
+                            <div class="color-label">Average Color</div>
+                            <div class="color-box" style="background-color: #195c73"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 1</div>
+                            <div class="color-box" style="background-color: #195d73"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Dominant Color 2</div>
+                            <div class="color-box" style="background-color: #38c4a9"></div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-label">Gradient (45°)</div>
+                            <div class="gradient-box" style="--color1: #195d73; --color2: #38c4a9"></div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </body>
+    </html>
+    
