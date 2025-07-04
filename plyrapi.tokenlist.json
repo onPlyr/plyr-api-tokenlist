@@ -1526,7 +1526,7 @@
             "symbol": "PIT",
             "decimals": 9,
             "logoURI": "https://plyr.network/api_icons/pit.png",
-            "averageColor": "#0c0c0c",
+            "averageColor": "#c3c3c3",
             "dominantColor1": "#1a1a1a",
             "dominantColor2": "#c3c3c3",
             "apiId": "pit",
