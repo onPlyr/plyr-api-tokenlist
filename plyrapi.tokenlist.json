@@ -1680,8 +1680,6 @@
             "nativeContractAddress": "0x5d506e4fc75204a1a3260e720a3c3f375a829312",
             "isGameStake": false,
             "disabledOnUI": false
-        },
-		
-		
+        }
     ]
 }
