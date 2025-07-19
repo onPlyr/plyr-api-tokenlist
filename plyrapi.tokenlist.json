@@ -1680,6 +1680,34 @@
             "nativeContractAddress": "0x5d506e4fc75204a1a3260e720a3c3f375a829312",
             "isGameStake": false,
             "disabledOnUI": false
-        }
+        },
+		
+		{
+            "chainId": 62831,
+            "address": "0x3D1307f5C85D06B1C31253A12A87c1a83391d137",
+            "name": "ARENA[PLYR]",
+            "symbol": "ARENA",
+            "decimals": 18,
+            "logoURI": "https://plyr.network/api_icons/arena.png",
+            "averageColor": "#ea540c",
+            "dominantColor1": "#e95610",
+            "dominantColor2": "#f5dece",
+            "apiId": "arena",
+            "cmcURL": "https://coinmarketcap.com/currencies/the-arena/",
+            "cmcId": "33708",
+            "cgURL": "https://www.coingecko.com/en/coins/the-arena",
+            "cgId": "the-arena",
+            "cmcDexAddress": "",
+            "cmcDexNetwork": "",
+            "website": "https://arena.social/",
+            "category": "SocialFi",
+            "shortDescription": "Arena is the SocialFi project on Avalanche Network",
+            "nativeChainId": 43114,
+            "nativeChainName": "AVALANCHE",
+            "nativeChainLogoURI": "https://plyr.network/api_icons/chains/43114.png",
+            "nativeContractAddress": "0xb8d7710f7d8349a506b75dd184f05777c82dad0c",
+            "isGameStake": false,
+            "disabledOnUI": false
+        },
     ]
 }
